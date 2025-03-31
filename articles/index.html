@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Articles & Guides - Game Station</title>
+    <meta name="description" content="Explore our collection of game articles, guides, reviews, and news to enhance your gaming experience.">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/article.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="../index.html">Game Station</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../categories/action.html">Action</a></li>
+                    <li><a href="../categories/puzzle.html">Puzzle</a></li>
+                    <li><a href="../categories/strategy.html">Strategy</a></li>
+                    <li><a href="../categories/sports.html">Sports</a></li>
+                    <li><a href="index.html" class="active">Articles</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="articles-header">
+        <div class="container">
+            <h1>Game Articles & Guides</h1>
+            <p>Discover tips, strategies, and insights to improve your gaming experience</p>
+            
+            <div class="article-search-container">
+                <input type="text" id="article-search" placeholder="Search articles...">
+                <button id="search-button"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="articles-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-button active" data-filter="all">All Articles</button>
+                <button class="filter-button" data-filter="guides">Guides</button>
+                <button class="filter-button" data-filter="news">News</button>
+                <button class="filter-button" data-filter="reviews">Reviews</button>
+                <button class="filter-button" data-filter="tips">Tips & Tricks</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="articles-content">
+        <div class="container">
+            <div class="articles-grid">
+                <!-- Article 1 -->
+                <article class="article-card" data-category="guides">
+                    <div class="article-thumbnail">
+                        <a href="top-10-puzzle-games.html">
+                            <img src="images/top-puzzle-games-featured.jpg" alt="Top 10 Puzzle Games">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">Guides</span>
+                        <h2 class="article-title"><a href="top-10-puzzle-games.html">Top 10 Puzzle Games Every Gamer Should Try</a></h2>
+                        <p class="article-description">Discover the best puzzle games that will challenge your mind and provide hours of entertainment. From classic puzzlers to modern brain-teasers.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> Alex Johnson</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> June 15, 2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 2 -->
+                <article class="article-card" data-category="reviews">
+                    <div class="article-thumbnail">
+                        <a href="#">
+                            <img src="images/action-games-thumb.jpg" alt="Best Action Games">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">Reviews</span>
+                        <h2 class="article-title"><a href="#">Best Action Games of 2023</a></h2>
+                        <p class="article-description">Our comprehensive review of the most thrilling action games released this year. Find out which titles deserve your attention.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> Sarah Miller</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> May 28, 2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 3 -->
+                <article class="article-card" data-category="tips">
+                    <div class="article-thumbnail">
+                        <a href="#">
+                            <img src="images/game-tips-thumb.jpg" alt="Gaming Tips">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">Tips & Tricks</span>
+                        <h2 class="article-title"><a href="#">Essential Gaming Tips for Beginners</a></h2>
+                        <p class="article-description">New to gaming? Learn the fundamental skills and strategies that will help you enjoy games more and improve faster.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> Michael Chen</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> May 15, 2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 4 -->
+                <article class="article-card" data-category="news">
+                    <div class="article-thumbnail">
+                        <a href="#">
+                            <img src="images/gaming-news-thumb.jpg" alt="Gaming News">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">News</span>
+                        <h2 class="article-title"><a href="#">Major Gaming Releases Coming This Summer</a></h2>
+                        <p class="article-description">Get ready for an exciting summer with these highly anticipated game releases. Mark your calendars for these upcoming titles.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> Emma Rodriguez</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> May 5, 2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 5 -->
+                <article class="article-card" data-category="reviews">
+                    <div class="article-thumbnail">
+                        <a href="#">
+                            <img src="images/indie-games-thumb.jpg" alt="Indie Games">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">Reviews</span>
+                        <h2 class="article-title"><a href="#">Indie Games You Shouldn't Miss</a></h2>
+                        <p class="article-description">These independent games offer innovative gameplay and compelling stories that rival big-budget titles. Here's why they deserve your attention.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> Daniel Park</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> April 30, 2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 6 -->
+                <article class="article-card" data-category="guides">
+                    <div class="article-thumbnail">
+                        <a href="#">
+                            <img src="images/strategy-games-thumb.jpg" alt="Strategy Games">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">Guides</span>
+                        <h2 class="article-title"><a href="#">Best Strategy Games for Beginners</a></h2>
+                        <p class="article-description">Looking for strategy games that aren't too complex? Check out our top picks for newcomers to the genre.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> Jessica Taylor</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> April 10, 2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 7 -->
+                <article class="article-card" data-category="reviews">
+                    <div class="article-thumbnail">
+                        <a href="#">
+                            <img src="images/mobile-games-thumb.jpg" alt="Mobile Games">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">Reviews</span>
+                        <h2 class="article-title"><a href="#">Top 15 Mobile Games Worth Playing</a></h2>
+                        <p class="article-description">Discover the best mobile games that offer deep gameplay and hours of entertainment on the go.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> Robert Johnson</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> March 22, 2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 8 -->
+                <article class="article-card" data-category="news">
+                    <div class="article-thumbnail">
+                        <a href="#">
+                            <img src="images/game-mechanics-thumb.jpg" alt="Game Mechanics">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">News</span>
+                        <h2 class="article-title"><a href="#">Most Innovative Game Mechanics in Recent Years</a></h2>
+                        <p class="article-description">Explore the cutting-edge gameplay mechanics that are pushing the boundaries of what games can do.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> Lisa Chen</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> February 15, 2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 9 -->
+                <article class="article-card" data-category="tips">
+                    <div class="article-thumbnail">
+                        <a href="#">
+                            <img src="images/gaming-setup-thumb.jpg" alt="Gaming Setup">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">Tips & Tricks</span>
+                        <h2 class="article-title"><a href="#">Building the Perfect Gaming Setup on a Budget</a></h2>
+                        <p class="article-description">Learn how to create an optimal gaming environment without breaking the bank. Smart tips for every budget.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> James Wilson</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> January 28, 2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 10 -->
+                <article class="article-card" data-category="guides">
+                    <div class="article-thumbnail">
+                        <a href="#">
+                            <img src="images/retro-games-thumb.jpg" alt="Retro Games">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">Guides</span>
+                        <h2 class="article-title"><a href="#">Classic Retro Games That Still Hold Up Today</a></h2>
+                        <p class="article-description">These timeless classics from gaming's early days remain just as enjoyable now as they were when first released.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> Amanda Lewis</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> January 10, 2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 11 -->
+                <article class="article-card" data-category="news">
+                    <div class="article-thumbnail">
+                        <a href="#">
+                            <img src="images/esports-thumb.jpg" alt="Esports">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">News</span>
+                        <h2 class="article-title"><a href="#">The Rising World of Competitive Esports</a></h2>
+                        <p class="article-description">How esports has transformed from niche competitions to mainstream entertainment with million-dollar prizes.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> Kevin Martinez</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> December 12, 2022</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 12 -->
+                <article class="article-card" data-category="tips">
+                    <div class="article-thumbnail">
+                        <a href="#">
+                            <img src="images/game-achievements-thumb.jpg" alt="Game Achievements">
+                        </a>
+                    </div>
+                    <div class="article-info">
+                        <span class="article-category">Tips & Tricks</span>
+                        <h2 class="article-title"><a href="#">Mastering Difficult Game Achievements</a></h2>
+                        <p class="article-description">Strategies and techniques for unlocking those seemingly impossible achievements and trophies in popular games.</p>
+                        <div class="article-meta">
+                            <span class="article-author"><i class="fas fa-user"></i> Brian Thomas</span>
+                            <span class="article-date"><i class="fas fa-calendar"></i> November 25, 2022</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="pagination">
+                <!-- Pagination buttons will be added via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Game Station</h2>
+                    <p>The best place for free online games</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                        <li><a href="../privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="../categories/action.html">Action</a></li>
+                        <li><a href="../categories/puzzle.html">Puzzle</a></li>
+                        <li><a href="../categories/strategy.html">Strategy</a></li>
+                        <li><a href="../categories/sports.html">Sports</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Game Station. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/article-filter.js"></script>
+</body>
+</html> 
